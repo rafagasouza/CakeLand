@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Bolos</title>
+  <link rel="stylesheet" href="style.css"> <!-- Se quiser estilizar depois -->
+</head>
+<body>
+
+  <main class="container">
+    <h1>Cadastro de Bolos</h1>
+
+    <form id="cake-form">
+      
+      <div class="form-group">
+        <label for="flavor">Sabor do Bolo:</label>
+        <input type="text" id="flavor" name="flavor" placeholder="Ex: Chocolate, Morango" required>
+      </div>
+
+      <div class="form-group">
+        <label for="description">Descrição:</label>
+        <textarea id="description" name="description" placeholder="Descreva o bolo..." required></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="price">Preço (R$):</label>
+        <input type="number" id="price" name="price" placeholder="Ex: 25.00" step="0.01" min="0" required>
+      </div>
+
+      <button type="submit" class="btn">Cadastrar Bolo</button>
+
+      <div id="message" class="message"></div>
+
+    </form>
+  </main>
+
+  <script src="registerCake.js"></script> <!-- Arquivo JS para processar o formulário -->
+</body>
+</html>
