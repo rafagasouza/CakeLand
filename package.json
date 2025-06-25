@@ -17,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/rafagasouza/CakeLand/issues"
   },
-  "homepage": "https://github.com/rafagasouza/CakeLand#readme"
+  "homepage": "https://github.com/rafagasouza/CakeLand#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "eslint": "^9.29.0"
+  }
 }
